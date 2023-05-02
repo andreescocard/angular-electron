@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "electron": "ng build && electron .",
-    "electron-gen-win": "electron-packager . --platform=win32 --no-prune --ignore=/node_modules --ignore=/e2e --ignore=/src"
+    "electron-gen-win": "electron-packager . --platform=win32 --no-prune --ignore=/node_modules --ignore=/e2e --ignore=/src --overwrite"
   },
   "private": true,
   "dependencies": {
